@@ -1,5 +1,5 @@
 from django.contrib import admin
-from https://github.com/CodeForPittsburgh/food-access-server.git.models import  FoodLocation
+from .models import  FoodLocation
 
 # Register your models here.
 @admin.register(FoodLocation)
