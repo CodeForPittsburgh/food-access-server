@@ -1,0 +1,4 @@
+.idea
+env
+
+food_access_backend/local_settings.py

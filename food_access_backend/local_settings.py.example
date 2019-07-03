@@ -1,0 +1,15 @@
+"""
+Private settings
+
+rename this file to `local_settings.py`
+and modify values below to match your setup
+"""
+
+DB_NAME = 'YOUR_DATABASE_NAME'  # postgres database name
+
+DB_USER = 'YOUR_DATABASE_USER'  # postgres db username
+DB_PASSWORD = 'YOUR_DB_PASSWORD_HERE'  # password for for DB_USER
+
+# you can find resources online to generate a key
+# https://www.miniwebtool.com/django-secret-key-generator/
+MY_SECRET_KEY = 'YOUR_SECRET_KEY_HERE'
