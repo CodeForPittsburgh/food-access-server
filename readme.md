@@ -18,7 +18,7 @@ This will host the api that will provide data to the food access map.
 `pip install -r requirements`
 4. Install the dependencies  
 `pip install -r requirements.txt` 
-5. Set up a postgres database with PostGIS -  [instructions](https://docs.djangoproject.com/en/2.2/ref/contrib/gis/install/postgis/)  
+5. Set up a postgres database with PostGIS - [instructions](https://docs.djangoproject.com/en/2.2/ref/contrib/gis/install/postgis/)  
 6. Modify and rename `food_access_backend/local_settings.py.example` per comments in that file
 7. Migrate the models to your newly created db  
 `python manage.py migrate`
